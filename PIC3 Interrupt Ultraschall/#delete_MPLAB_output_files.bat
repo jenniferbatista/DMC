@@ -1,18 +1,18 @@
 @echo off
- rem  Für Microchip MPLAB-Projekte zum
- rem  Löschen der von MPLAB erzeugten Ausgabedateien:
+ rem  FÃ¼r Microchip MPLAB-Projekte zum
+ rem  LÃ¶schen der von MPLAB erzeugten Ausgabedateien:
  rem  Diese Batchdatei ins aktuelle Projektverzeichnis kopieren
- rem  und dort per Doppelklick ausführen.
+ rem  und dort per Doppelklick ausfÃ¼hren.
 
- rem  Version für Quelldateien .c und .asm im selben Verzeichnis
+ rem  Version fÃ¼r Quelldateien .c und .asm im selben Verzeichnis
 
- rem  B.Pohlner (EMB) 14.04.11 / 02.05.11  für ASM- und C-Projekte
+ rem  B.Pohlner (EMB) 14.04.11 / 02.05.11  fÃ¼r ASM- und C-Projekte
 
  echo.
  echo.
- echo L”schen der von MPLAB erzeugten Ausgabedateien in diesem Projektverzeichnis
+ echo Lâ€schen der von MPLAB erzeugten Ausgabedateien in diesem Projektverzeichnis
  echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- echo.        Alle fr die Erstellung des Projekts wichtigen Dateien
+ echo.        Alle fÂr die Erstellung des Projekts wichtigen Dateien
  echo.                 und Quelldateien bleiben erhalten:
  echo.
 
@@ -43,7 +43,7 @@ pause
  rem  Objektdateien von C-Quelltexten
  for %%I in (*.o) do  if exist %%~nI.c  del %%~nI.o
 
- rem  Nicht löschen:
+ rem  Nicht lÃ¶schen:
  rem  .mcp = Microchip Project File
  rem  .mcw = Microchip Workspace File
 
@@ -54,7 +54,7 @@ goto end
  echo Kein MPLAB-Projekt in diesem Verzeichnis vorhanden:
  echo.
  echo Die Batchdatei muss im Projektverzeichnis liegen, das die
- echo .mcp-Datei enth„lt.
+ echo .mcp-Datei enthâ€lt.
  echo.
 pause
 
