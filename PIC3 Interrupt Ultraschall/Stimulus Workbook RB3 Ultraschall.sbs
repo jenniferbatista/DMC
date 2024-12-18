@@ -1,0 +1,100 @@
+## SCL Builder Setup File: Do not edit!!
+
+## VERSION: 3.60.00.00
+## FORMAT:  v2.00.01
+## DEVICE:  PIC18F452
+
+## PINREGACTIONS
+cyc
+No Repeat
+--
+&
+## ADVPINREGACTIONS
+--
+&
+--
+COND1
+Any
+
+
+
+
+
+
+--
+&
+## CLOCK
+&
+## STIMULUSFILE
+&
+## RESPONSEFILE
+&
+## ASYNCH
+Pin
+RB3
+Pulse High
+174 us
+Echoimpuls des Sensors für 3cm
+2
+--
+Pin
+RB3
+Pulse High
+580 us
+10cm
+2
+--
+Pin
+RB3
+Pulse High
+4466 us
+77cm Höhe Tischkante
+2
+--
+Pin
+RB3
+Pulse High
+5800 us
+100cm
+2
+--
+Pin
+RB3
+Pulse High
+7134 us
+123cm
+2
+--
+Pin
+RB3
+Pulse High
+23200 us
+400cm
+2
+--
+Pin
+RB3
+Pulse High
+90 ms
+Überschreitung des Messbereichs (Timeout)
+3
+--
+Pin
+RB3
+Set High
+
+
+-1
+--
+Pin
+RB3
+Set Low
+
+
+-1
+--
+&
+## ADVANCEDSCL
+
+0
+&
