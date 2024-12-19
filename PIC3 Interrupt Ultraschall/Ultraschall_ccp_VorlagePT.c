@@ -1,7 +1,7 @@
  //Relatório de Código: Medidor Ultrassônico com PIC18F452
  //Projeto realizado na Hochschule Mannheim
  //Jennifer Azevedo Batista e Guilherme Correa Koller
- //Curso: Digital- und Mikrocomputertechnik (Microcontrolados)
+ //Curso: Digital- und Mikrocomputertechnik (Sistemas Microcontrolados)
 
 
 #include <stdio.h>
